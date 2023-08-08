@@ -25,16 +25,23 @@
   gap: 8px;
 }
 
-.child {
+.sharp-box,
+.large-box {
   background-color: #ccc;
   border: 1px solid #666;
+}
+
+.small-box {
+  background-color: #fdd;
+  border: 1px solid #f66;
+}
+
+.large-box {
   min-height: 100px;
   min-width: 100px;
 }
 
-.grand-child {
-  background-color: #fdd;
-  border: 1px solid #f66;
+.small-box {
   height: 35px;
   width: 35px;
 }
