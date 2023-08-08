@@ -1,0 +1,45 @@
+.vertical-wrapper,
+.horizontal-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-wrapper {
+  flex-direction: column;
+}
+
+.horizontal-wrapper {
+  flex-direction: row; /* "row" is default */
+}
+
+.large-gap {
+  gap: 24px;
+}
+
+.medium-gap {
+  gap: 16px;
+}
+
+.small-gap {
+  gap: 4px;
+}
+
+.parent {
+  width: 100%;
+  height: 100%;
+}
+
+.child {
+  background-color: #ccc;
+  border: 1px solid #666;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.grand-child {
+  background-color: #fdd;
+  border: 1px solid #f66;
+  height: 50px;
+  width: 50px;
+}
