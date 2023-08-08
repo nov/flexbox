@@ -42,3 +42,7 @@
 .grow {
   flex-grow: 1;
 }
+
+.stretch {
+  align-self: stretch;
+}
