@@ -35,6 +35,10 @@
 .grand-child {
   background-color: #fdd;
   border: 1px solid #f66;
-  height: 50px;
-  width: 50px;
+  height: 35px;
+  width: 35px;
+}
+
+.grow {
+  flex-grow: 1;
 }
